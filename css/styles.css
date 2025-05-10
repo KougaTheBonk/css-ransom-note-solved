@@ -1,7 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap");
+/* Added Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Spice&family=Kings&family=Lavishly+Yours&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Special+Gothic&family=UnifrakturMaguntia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Spice&family=Kings&family=Lavishly+Yours&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Special+Gothic&family=UnifrakturMaguntia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Spice&family=Kings&family=Lavishly+Yours&family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Special+Gothic&family=UnifrakturMaguntia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Spice&family=Kings&family=Lavishly+Yours&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Special+Gothic&family=UnifrakturMaguntia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Spice&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kings&family=Lavishly+Yours&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Special+Gothic&family=UnifrakturMaguntia&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -59,7 +64,7 @@ body {
   color: aqua;
   text-decoration: underline;
   text-transform: uppercase;
-  font-family: 'Piazolla', sans-serif;
+  font-family: "Piazolla", sans-serif;
 }
 
 .whyHLetter {
@@ -68,7 +73,7 @@ body {
   color: darkgoldenrod;
   text-decoration: overline;
   text-transform: lowercase;
-  font-family: 'Ceviche One', sans-serif;
+  font-family: "Ceviche One", sans-serif;
 }
 
 .whyYLetter {
@@ -77,228 +82,232 @@ body {
   color: coral;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+  font-family: "Raleway Dots", sans-serif;
 }
 
-/* DID word */
+/* My Work below this comment */
 
+/* Style #1 */
+
+.developerRLetter,
+.skillsLLetter,
+.gardeningGLetter,
+.improveMLetter,
+.wantedWLetter,
 .didDLetter {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ef9a9a;
+  text-decoration: overline;
+  text-transform: lowercase;
+  background-color: rgb(255, 245, 157);
+  font-family: "Noto Sans", sans-serif;
 }
 
+/* Style #2 */
+
+.skillsSTwoLetter,
+.wantedELetter,
+.becauseSLetter,
 .didILetter {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(107, 101, 53);
+  text-decoration: none;
+  text-transform: capitalize;
+  background-color: #a1887f;
+  font-family: "Quicksand", sans-serif;
 }
 
+/* Style #3 */
+
+.skillsLTwoLetter,
+.improveELetter,
+.developerETwoLetter,
+.becauseBLetter,
+.upULetter,
 .didDTwoLetter {
+  font-size: 23px;
+  font-weight: 700;
+  color: rgb(180, 95, 124);
+  text-decoration: line-through;
+  text-transform: uppercase;
+  font-family: "Roboto Mono", monospace;
 }
 
-/* THE word */
+/* Style #4 */
 
+.improveVLetter,
+.gardeningNTwoLetter,
+.wantedDLetter,
+.frontendDLetter,
+.takeELetter,
 .theTLetter {
+  font-size: 13px;
+  font-weight: normal;
+  color: #ff8a65;
+  text-decoration: underline;
+  text-transform: none;
+  font-family: "Lora", serif;
 }
 
+/* Style #5 */
+
+.skillsILetter,
+.wantedALetter,
+.theyYLetter,
+.becauseETwoLetter,
+.toTLetter,
+.gardeningNLetter,
 .theHLetter {
+  font-size: 27px;
+  font-weight: 700;
+  color: #8bc34a;
+  text-transform: lowercase;
+  text-decoration: none;
+  background-color: #5d4037;
+  font-family: "Montserrat", sans-serif;
 }
 
+/* Style #6 */
+
+.theirTLetter,
+.exclamation-mark,
+.wantedNLetter,
+.developerOLetter,
+.question-mark,
+.becauseCLetter,
+.gardeningALetter,
 .theELetter {
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff59d;
+  text-transform: uppercase;
+  text-decoration: overline;
+  background-color: rgb(211, 47, 47);
+  font-family: "Times New Roman", Times, serif;
 }
 
-/* FRONT-END word */
+/* Style #7 */
 
+.rootRLetter,
+.gardeningILetter,
+.developerVLetter,
+.developerLLetter,
+.theirHLetter,
+.takeKLetter,
+.didDTwoLetter,
 .frontendFLetter {
+  font-size: 29px;
+  font-weight: bold;
+  color: rgb(73, 142, 151);
+  text-transform: uppercase;
+  text-decoration: line-through;
+  background-color: rgb(187, 222, 251);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+/* Style #8 */
+
+.rootTLetter,
+.improvePLetter,
+.wantedTLetter,
+.theyELetter,
+.becauseULetter,
+.developerPLetter,
 .frontendRLetter {
+  font-size: 32px;
+  font-weight: 700;
+  color: rgb(49, 27, 146);
+  text-transform: lowercase;
+  text-decoration: overline;
+  background-color: #7e57c2;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* Style #9 */
+
+.hyphen,
+.developerEThreeLetter,
+.rootOLetter,
+.gardeningELetter,
+.improveILetter,
+.toOLetter,
+.skillsKLetter,
+.upPLetter,
 .frontendOLetter {
+  font-size: 45px;
+  font-weight: 400;
+  color: #d84315;
+  text-transform: capitalize;
+  text-decoration: underline;
+  background-color: #b71c1c;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+/* Style #10 */
+
+.skillsSLetter,
+.developerDLetter,
+.gardeningDLetter,
+.improveRLetter,
+.takeALetter,
+.theirELetter,
 .frontendNLetter {
+  font-size: 26px;
+  font-weight: normal;
+  color: rgb(0, 187, 55);
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #ffefe6;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
+/* Google Font #4 */
+
+.theirILetter,
+.theyTLetter,
+.gardeningGTwoLetter,
+.developerELetter,
 .frontendTLetter {
+  font-size: 28px;
+  font-weight: 700;
+  color: #5d4037;
+  text-transform: lowercase;
+  text-decoration: none;
+  background-color: #a1887f;
+  font-family: "UnifrakturMaguntia", cursive;
 }
 
+/* Google Font #5 */
+
+.theirRLetter,
+.theyHLetter,
+.improveOLetter,
+.becauseALetter,
+.takeTLetter,
 .frontendELetter {
+  font-size: 30px;
+  font-weight: 400;
+  color: #e92cff;
+  text-transform: uppercase;
+  text-decoration: overline;
+  background-color: rgb(0, 26, 172);
+  font-family: "Lavishly Yours", cursive;
 }
 
+/* Google Font #6 */
+
+.rootOTwoLetter,
+.gardeningRLetter,
+.becauseELetter,
 .frontendNTwoLetter {
-}
-
-.frontendDLetter {
-}
-
-/* DEVELOPER word */
-
-.developerDLetter {
-}
-.developerELetter {
-}
-.developerVLetter {
-}
-.developerETwoLetter {
-}
-.developerLLetter {
-}
-.developerOLetter {
-}
-.developerPLetter {
-}
-.developerEThreeLetter {
-}
-.developerRLetter {
-}
-
-/* TAKE word */
-
-.takeTLetter {
-}
-.takeALetter {
-}
-.takeKLetter {
-}
-.takeELetter {
-}
-
-/* UP word */
-
-.upULetter {
-}
-.upPLetter {
-}
-
-/* GARDENING word */
-
-.gardeningGLetter {
-}
-.gardeningALetter {
-}
-.gardeningRLetter {
-}
-.gardeningDLetter {
-}
-.gardeningELetter {
-}
-.gardeningNLetter {
-}
-.gardeningILetter {
-}
-.gardeningNTwoLetter {
-}
-.gardeningGTwoLetter {
-}
-
-/* BECAUSE word */
-
-.becauseBLetter {
-}
-.becauseELetter {
-}
-.becauseCLetter {
-}
-.becauseALetter {
-}
-.becauseULetter {
-}
-.becauseSLetter {
-}
-.becauseETwoLetter {
-}
-
-/* THEY word */
-
-.theyTLetter {
-}
-.theyHLetter {
-}
-.theyELetter {
-}
-.theyYLetter {
-}
-
-/* WANTED word */
-
-.wantedWLetter {
-}
-.wantedALetter {
-}
-.wantedNLetter {
-}
-.wantedTLetter {
-}
-.wantedELetter {
-}
-.wantedDLetter {
-}
-
-/* TO word */
-
-.toTLetter {
-}
-.toOLetter {
-}
-
-/* IMPROVE word */
-
-.improveILetter {
-}
-.improveMLetter {
-}
-.improvePLetter {
-}
-.improveRLetter {
-}
-.improveOLetter {
-}
-.improveVLetter {
-}
-.improveELetter {
-}
-
-/* THEIR word */
-
-.theirTLetter {
-}
-.theirHLetter {
-}
-.theirELetter {
-}
-.theirILetter {
-}
-.theirRLetter {
-}
-
-/* ROOT word */
-
-.rootRLetter {
-}
-.rootOLetter {
-}
-.rootOTwoLetter {
-}
-.rootTLetter {
-}
-
-/* SKILLS word */
-
-.skillsSLetter {
-}
-.skillsKLetter {
-}
-.skillsILetter {
-}
-.skillsLLetter {
-}
-.skillsLTwoLetter {
-}
-.skillsSTwoLetter {
-}
-
-/* SYMBOLS */
-
-.hyphen {
-}
-.exclamation-mark {
-}
-.question-mark {
+  font-size: 31px;
+  font-weight: bold;
+  color: rgb(90, 106, 255);
+  text-transform: capitalize;
+  text-decoration: line-through;
+  background-color: #a6ffff;
+  font-family: "Kings", cursive;
 }
